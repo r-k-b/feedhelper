@@ -1,0 +1,29 @@
+{
+  "name": "feedhelper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-prettier": "chokidar '**/*.js' -c 'prettier --write {path}'"
+  },
+  "prettier": {
+    "bracketSpacing": false,
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/r-k-b/feedhelper.git"
+  },
+  "author": "Robert K. Bell <robert.k.bell@gmail.com",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "chokidar": "2.0.0",
+    "chokidar-cli": "1.2.0",
+    "dotenv": "4.0.0",
+    "node-fetch": "1.7.3",
+    "prettier": "1.9.2"
+  }
+}
