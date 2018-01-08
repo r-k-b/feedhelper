@@ -20,10 +20,12 @@
   "author": "Robert K. Bell <robert.k.bell@gmail.com",
   "license": "GPL-3.0",
   "dependencies": {
+    "chalk": "2.3.0",
     "chokidar": "2.0.0",
     "chokidar-cli": "1.2.0",
     "dotenv": "4.0.0",
     "node-fetch": "1.7.3",
+    "p-queue": "2.3.0",
     "prettier": "1.9.2"
   }
 }
